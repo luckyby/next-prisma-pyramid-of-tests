@@ -28,6 +28,17 @@
   flex-grow: 1;
 }
 
+.grid p a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.grid p a:hover,
+.grid p a:focus,
+.grid p a:active {
+  text-decoration: underline;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;

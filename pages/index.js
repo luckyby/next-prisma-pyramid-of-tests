@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.description}>
           <br/>
-          <p> API routes can be accessed on the next endpoints: </p>
+          <p> API routes can be accessed on endpoints: </p>
           <div >
             <a href="http://localhost:3000/api/hello" className={styles.card}> http://localhost:3000/api/hello </a><br/>
             <a href="http://localhost:3000/api/hello/Pan" className={styles.card}>
@@ -40,7 +40,7 @@ export default function Home() {
           <br/>
           <p>Server has the next static pages:</p>
           <div className={styles.grid}>
-            <a href="http://localhost:3000/about" className={styles.card} >http://localhost:3000/about </a><br/>
+            <a href="http://localhost:3000/about" className={styles.card} >http://localhost:3000/about </a>
             <a href="http://localhost:3000/weather" className={styles.card} >http://localhost:3000/weather </a><br/>
           </div>
           {/*Get started by editing{' '}*/}
