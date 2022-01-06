@@ -1,0 +1,6 @@
+.idea
+.next/
+node_modules/
+try_something/
+.env.local
+package-lock.json
