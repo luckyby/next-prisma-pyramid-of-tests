@@ -15,9 +15,9 @@ export default function Home() {
         {/*<h1 className={styles.title}>*/}
         {/*  Welcome to <a href="https://nextjs.org">Next.js!</a>*/}
         {/*</h1>*/}
-        <h1 >
+        <p style={{fontSize: '2rem'}} >
           Welcome to server for testing based on next.js
-        </h1>
+        </p>
 
 
 

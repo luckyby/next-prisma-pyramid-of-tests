@@ -9,8 +9,8 @@ function Weather(props) {
       <div >
       <div className={styles.grid}>
         <div className={styles.main}>
-          <h3>From openweathermap.org</h3><div>   <br/></div>
-          <h2 ><p>Weather in {props.city}: {props.descr}, {props.temper}&deg;C</p></h2>
+          <p style={{fontSize: '1.2rem'}}>From openweathermap.org</p><div>   <br/></div>
+          <p style={{fontSize: '2rem'}}>Weather in {props.city}: {props.descr}, {props.temper}&deg;C</p>
         </div>
       </div>
       </div>
