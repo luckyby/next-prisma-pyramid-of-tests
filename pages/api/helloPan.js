@@ -13,7 +13,6 @@ export default async function handler(req, res) {
     console.log('result:', result[0].firstname)
     res.status(200)
       .end(`Hello ${result[0].lastname} with firstname ${result[0].firstname}`)
-
   }
 
 
