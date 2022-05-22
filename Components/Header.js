@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 
-const Maintitle = (props) => {
+const Header = (props) => {
 
         const Tag1 = props.tag_1;
         const Tag2 = props.tag_2;
@@ -16,4 +16,4 @@ const Maintitle = (props) => {
     )
 }
 
-export default Maintitle
+export default Header
