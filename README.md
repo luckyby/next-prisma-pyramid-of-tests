@@ -14,7 +14,7 @@ http://localhost:3000/api/weather
 
 http://localhost:3000/api/weather/cityname (for example cityname = Lviv)
 
-Server has the next static pages:
+Server has the next pages:
 
 http://localhost:3000/about
 
