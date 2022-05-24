@@ -36,7 +36,7 @@ const Routesblock = () => {
 
                 <div className={styles.routes}>
 
-                    <Routestitle text='Server has the next static pages:'/>
+                    <Routestitle text='Server has the next pages:'/>
 
                     <div className={styles.recordBlock}>
 
