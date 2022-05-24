@@ -1,4 +1,3 @@
-## Welcome to server for testing based on next.js
 
 <img src="public/server-ui.png">
 -----
