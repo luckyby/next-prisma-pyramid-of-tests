@@ -1,6 +1,6 @@
 ## Welcome to server for testing based on next.js
 
-
+![](/Users/sergars/work/007-translate-article/soft/next-prisma-pyramid-of-tests/public/server-ui.png)
 
 -----
 
