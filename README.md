@@ -1,7 +1,6 @@
 ## Welcome to server for testing based on next.js
 
-![](/Users/sergars/work/007-translate-article/soft/next-prisma-pyramid-of-tests/public/server-ui.png)
-
+<img src="https://github.com/luckyby/next-prisma-pyramid-of-tests/tree/main/public/server-ui.png">
 -----
 
 API routes can be accessed on endpoints:
