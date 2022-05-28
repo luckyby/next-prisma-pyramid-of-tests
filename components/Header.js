@@ -8,9 +8,9 @@ const Header = (props) => {
     return (
 
         <div className={styles.mainTitle}>
-        <Tag1 >{props.main_title_1}</Tag1>
-        <Tag2 >{props.main_title_2}</Tag2>
-    </div>
+            <Tag1 >{props.main_title_1}</Tag1>
+            <Tag2 >{props.main_title_2}</Tag2>
+        </div>
 
 
     )
