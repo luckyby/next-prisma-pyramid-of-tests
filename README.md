@@ -1,5 +1,5 @@
 
-<img src="public/server-ui-v4.png">
+<img src="public/server-ui-v5.png">
 -----
 
 API routes can be accessed on endpoints:
