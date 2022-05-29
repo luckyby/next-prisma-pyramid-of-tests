@@ -7,7 +7,7 @@ const Header = (props) => {
 
     return (
 
-        <div className={styles.mainTitle}>
+        <div className={styles.mainTitle} data-testid="componentHeader">
             <Tag1 >{props.main_title_1}</Tag1>
             <Tag2 >{props.main_title_2}</Tag2>
         </div>

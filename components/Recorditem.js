@@ -5,12 +5,12 @@ const Recorditem = (props) => {
 
     return (
 
-        <div className={styles.recordItem}>
+        <div className={styles.recordItem} data-testid="recordItem">
             <Link href={`.${props.prefix_record_url}${props.record_url} `}>
                 <a >{props.record_url_title}</a>
             </Link>
             <span >{props.record_text}</span>
-            <div className={styles.routesRemark}>{props.record_remark}</div>
+            <div className={styles.routesRemark} data-testid="routesRemark">{props.record_remark}</div>
         </div>
 
     );

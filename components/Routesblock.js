@@ -5,15 +5,15 @@ import Recorditem from "./Recorditem";
 
 const Routesblock = () => {
     return (
-            <div className={styles.routesBlock}>
+            <div className={styles.routesBlock} data-testid="routesBlock">
 
-                <div className={styles.routes}>
+                <div className={styles.routes} data-testid="routesApi">
 
                     <Routestitle text='API routes can be accessed on endpoints:'/>
 
                     <Routessubtitle text1='end point:' text2='will return:'/>
 
-                    <div className={styles.recordBlock}>
+                    <div className={styles.recordBlock} data-testid="recordBlockApi">
 
                         <Recorditem  prefix_record_url="/api" record_url = "/hello" record_url_title = 'http://localhost:3000/api/hello' record_remark = ""/>
                         <Recorditem  prefix_record_url="" record_url = "" record_url_title = '' record_text='Hello World' record_remark = ""/>
@@ -34,11 +34,11 @@ const Routesblock = () => {
                 </div>
                 {/*<br/>*/}
 
-                <div className={styles.routes}>
+                <div className={styles.routes} data-testid="routesPages">
 
                     <Routestitle text='Server has the next pages:'/>
 
-                    <div className={styles.recordBlock}>
+                    <div className={styles.recordBlock} data-testid="recordBlockPages">
 
                         <Recorditem  prefix_record_url="" record_url = "./about" record_url_title = 'http://localhost:3000/about' record_remark = ''/>
                         <Recorditem  prefix_record_url="" record_url = "" record_url_title = '' record_text=''/>
